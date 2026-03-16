@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JNJ Co. - Edible Glass Shop</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f6f8;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#1e293b;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.container{
+    padding:40px;
+    display:flex;
+    justify-content:center;
+}
+
+.product-card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    width:320px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.product-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.price{
+    font-size:22px;
+    color:#0f172a;
+    margin:10px 0;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0f172a;
+    color:white;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>JNJ Co.</h1>
+<p>Innovative Edible Glass Products</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="product-card">
+<img src="https://via.placeholder.com/300x200.png?text=MPG+Glass" alt="MPG Glass">
+
+<h2>MPG - Multipurpose Glass</h2>
+
+<p>
+MPG is a revolutionary edible glass designed for multiple uses —
+food decoration, edible containers, and creative culinary projects.
+Strong like glass, but completely safe to eat!
+</p>
+
+<div class="price">$19.99</div>
+
+<button onclick="buyProduct()">Buy Now</button>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 JNJ Co. | Edible Glass Innovation</p>
+</footer>
+
+<script>
+function buyProduct(){
+    alert("Thank you for choosing MPG Multipurpose Glass from JNJ Co!");
+}
+</script>
+
+</body>
+</html>
